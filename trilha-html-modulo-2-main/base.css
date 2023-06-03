@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 82%;
+}
+.menu {
+    width: 18%;
+    background-color: rgb(46, 151, 221);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(73, 86, 201);
+    max-height: 130px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(228, 228, 228);
+    min-height: 150px;
+}
+.whatsapp div{
+    background-color: black;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+        <style>
+        .footer hr{
+            color: #cac6c6;
+        }
+
+        </style>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu" align="center" >
+            <!-- Aqui vai o seu menu -->
+            <img src="logo.svg" height="60px">
+            <br>
+            <br>
+            <a href="Pagina-Inicial.html" ><button style="width: 190px; height: 35px; border: none; color: #dadada; background: rgb(58, 146, 204); border-radius: 3px; font-size: 15px;" target="_self" disabled >Inicial</button></a>
+            <hr color="#20859e" width="191px" />
+            <a href="Sobre-a-clínica.html"><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px; cursor: pointer;" target="_self" >Sobre a clínica</button></a>
+            <hr color="#20859e" width="191px" />
+            <a href="horario-de-atendimento.html"><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px; cursor: pointer;" target="_self" >Horário de Atendimento</button></a>
+            <hr color="#20859e" width="191px" />
+            <a href="Contato.html"><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px; cursor: pointer;" target="_self" >contato</button></a>
+        </div>
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="2.png" height="130">
+            </div>
+    
+            <div class="content" align="center">
+                <!-- Aqui vai o seu conteúdo -->
+                <h1 align="center">Seja Bem vindo/a á Clinica</h1>
+                <img src="logo.svg" alt="Logo Saldavius Corpius" width="200px">
+                <br>
+                <hr/>
+                <br>
+                <h2>Onde sua Saúde Física e Mental é Nossa Prioridade!!</h2>
+
+                <h2>Desafio <mark>"html"</mark> do Bootcamp da <a href="https://www.dio.me" style="text-decoration: none;color:rgb(42, 42, 103);" target="_blank">DIO.ME</a></h2>
+
+                <h3>Aprendizado</h3>
+                <p>Novamente foi um desafio em que acabou levando uma quantidade significativa de tempo, principalmente por eu sempre achar algo que eu queria fazer de forma diferente, e minha skill set não "permitia" eu encontrar a resposta, principalmente por eu não ter entrado no conteúdo de css de forma a entender o básico.</p>
+                <p>Eu acabei não só acabei utilizando a maioria das coisas que foram ensinadas nas aulas de html mas fui atrás também do "básico-necessário-para-fazer-o'que-eu-quero"( o que não necessariamente é bom,mas é bem divertido e interessante) de css e incorporei de forma extremamente porca e ineficaz no html (e entendi porque se tem uma "pasta global" exclusiva para o css e como utilizar melhor o "style") °~° </p>
+                <p>O rodapé foi um "saco de se fazer" mas foi um aprendizado importante sobre como e quando utilizar a pasta "base.css" ou "styles" no html.</p>
+                <p>De uma forma positiva se eu fosse refazer o site não só eu levaria muuuuuito menos tempo, mas eu faria de forma a criar "seleções" e modificar a seleção ao todo ao invés de fazer manualmente um por um (como por exemplo o rodapé em que durante a decisão de cor do ~div class="footer"~ eu utilizei de forma não tão eficiente no ~styles~ do html o ".footer hr{color:#cac6c6;}" enquanto eu poderia ter facilmente colocado no "base.css" para ser aplicado em todas as páginas de forma a facilitar a mudança(isso poderia ser feito também no menu[ que eu fiz manualmente])</p>
+                <h3>QUEM SOMOS</h3>
+                <p>Layout Bem simples com descrições feitas com base de outras clínicas</p>
+                <h3>HORÁRIO DE ATENDIMENTO</h3>
+                <p>Uma tabela bem simples também(talvez uma mudança seja a "height da cell" para distanciar as palavras e deixar mais fácil a compreensão da mesma.</p>
+                <p>na tabela os "serviços" têm o "href" para as descrições do procedimento utilizando o "title" pois não achei uma forma de deixar visível que clicar nos serviços levam a descrição dos mesmos.</p>
+                <h3>CONTATO</h3>
+                <p>Tentei fazer um design simples mas bonito e ao mesmo tempo implementar o padding, não consegui mexer o whatsapp e telefone para o centro do padding(mas mesmo que visualmente estranho está funcional).</p>
+
+
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <hr width=" 550px" align="center"/>
+                <span style="margin:auto; display:table; text-align: center;">
+                    <form>
+                    <label><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px;" disabled>Seu e-mail: </label></button><br><br>
+                    <input type="email" style="border: none;border-radius: 2px;height: 17px;width: 250px;"><br><br>
+                    <button value="enviar" formmethod="post" type="submit" style="width: 90px; height: 27px; background: rgb(66, 169, 238); border: none; color: white; border-radius: 3px; font-size: 15px; cursor: pointer; ">Enviar</button>
+                    <button type="reset" style="width: 90px; height: 27px; background: rgb(66, 169, 238); border: none; color: white; border-radius: 3px; font-size: 15px; cursor: pointer; ">Apagar</button>
+                </form>
+                </span>
+                <hr width=" 340px" align="center"/>
+                <span style="margin:auto; display:table; text-align: center;">
+                    <form>
+                    <a href="https://www.whatsapp.com" target="_blank" ><button type="button" style="width: 230px;height: 60px;font-size: 17px;background:rgb(228, 228, 228);border:none;cursor: pointer;" ><img src="Layer (1).svg"align="center" style="width:30px;"> +00 (00) 00000-0000</button></a><br><hr width=" 370px" align="center"/><br>
+                    <a href="https://goo.gl/maps/SXUaHYXTT4vGTnPV7" target="_blank"><button type="button" style="width: 260px;height: 60px;font-size: 17px;background:rgb(228, 228, 228);border:none;cursor: pointer;" ><img src="location-dot-solid.svg" align="center" style="width: 25px;padding-right: 10px;">Jardim Botânico<br>
+                    Matriz, Curitiba - PR, 82590-300</button></a>
+                    </form>
+                </span>
+                <hr width=" 550px" align="center"/>
+                <hr width=" 350px" align="center"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

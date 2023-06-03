@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+        <style>
+            table {
+                border: solid 1PX rgb(0, 0, 0);
+            }
+            .footer hr{
+                color: #cac6c6;
+            }
+            table tr:hover td{
+                background-color: rgb(111, 132, 250);
+            }
+            .content label {
+                display: block;
+                padding: 7px;
+            }
+            .content form {
+                width: 300px;
+                height: 330px;
+                margin: 10px;
+                background-color: rgba(105, 105, 105, 0.5);
+            }
+            .content label {
+                color: #FFF;
+            }
+            .content input {
+                display: inline-block;
+                padding-left: 10px;
+            }
+            .content label{
+                text-align: center;
+            }
+            .contato-whats {
+                background-color: rgba(105, 105, 105, 0.5);
+                padding-bottom: 110px;
+                border-radius: 20px;
+            }
+            
+                
+        </style>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu" align="center" >
+            <!-- Aqui vai o seu menu -->
+            <img src="logo.svg" height="60px">
+            <br>
+            <br>
+            <a href="Pagina-Inicial.html" ><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px; cursor: pointer;" target="_self" >Inicial</button></a>
+            <hr color="#20859e" width="191px" />
+            <a href="Sobre-a-clínica.html"><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px; cursor: pointer;" target="_self" >Sobre a clínica</button></a>
+            <hr color="#20859e" width="191px" />
+            <a href="horario-de-atendimento.html"><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px; cursor: pointer;" target="_self" >Horário de Atendimento</button></a>
+            <hr color="#20859e" width="191px" />
+            <a href="Contato.html"><button style="width: 190px; height: 35px; border: none; color: #dadada; background: rgb(58, 146, 204); border-radius: 3px; font-size: 15px;" target="_self" disabled >contato</button></a>
+            <br>
+            <br>
+            <br>
+
+
+
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="5.png" height="130"  >
+            </div>
+    
+            <div class="content" align="right">
+                <!-- Aqui vai o seu conteúdo -->
+                <span>
+                    <form align="center">
+                        <label>Nome: </label><input type="text" /><br>
+                        <label>E-mail:</label><input type="email"/><br>
+                        <label>Assunto: </label><input type="text" /><br>
+                        <label>Mensagem:</label><textarea name="message" style="height:5lvi;width: 180px;"></textarea><br>
+                        <button value="enviar" formmethod="post" type="submit" style="width: 90px; height: 27px; background: rgb(66, 169, 238); border: none; color: white; border-radius: 3px; font-size: 15px; cursor: pointer; ">Enviar</button>
+                        <button type="reset" style="width: 90px; height: 27px; background: rgb(66, 169, 238); border: none; color: white; border-radius: 3px; font-size: 15px; cursor: pointer; ">Apagar</button>
+                    </form>
+                </span>
+                <div class="contato-whats">
+                    <span>
+                        <a href="https://www.whatsapp.com" target="_blank" align="left">
+                        <img src="whatsapp-5355229.svg" width="308px" align="left" >
+                    
+                        <a href="https://www.whatsapp.com" target="_blank" align="left" style="text-decoration: none;color:white;" ><p align="left">
+                        <img id="icon-whats" src="Layer (1).svg"align="center" style="width:30px;padding-right: 10px;">+00 (00) 00000-0000
+                        <p align="left">Telefone: +00 (00) 00000-0000</p>
+                    </span>
+                </div>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d225.17991703609098!2d-49.2412872!3d-25.4423195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4ff6c236d65%3A0xdcb9bf3363daa784!2sJardim%20Bot%C3%A2nico%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1spt-BR!2sbr!4v1685747690907!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a href="https://goo.gl/maps/SXUaHYXTT4vGTnPV7" target="_blank"><button type="button" style="width: 400px;height: 60px;font-size: 17px;background:rgb(228, 228, 228);border:1px;cursor: pointer;border-radius: 8px;" >
+                <img src="location-dot-solid.svg" style="width: 25px;padding-right: 10px;">Jardim Botânico<br>Matriz, Curitiba - PR, 82590-300</button></a>
+
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <hr width=" 550px" align="center"/>
+                <span style="margin:auto; display:table; text-align: center;">
+                <form>
+                    <label><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px;" disabled>Seu e-mail: </label></button><br><br>
+                    <input type="email" style="border: none;border-radius: 2px;height: 17px;width: 250px;"><br><br>
+                    <button value="enviar" formmethod="post" type="submit" style="width: 90px; height: 27px; background: rgb(66, 169, 238); border: none; color: white; border-radius: 3px; font-size: 15px; cursor: pointer; ">Enviar</button>
+                    <button type="reset" style="width: 90px; height: 27px; background: rgb(66, 169, 238); border: none; color: white; border-radius: 3px; font-size: 15px; cursor: pointer; ">Apagar</button>
+                </form>
+                </span>
+                <hr width=" 340px" align="center" />
+                <span style="margin:auto; display:table; text-align: center;">
+                    <form>
+                    <a href="https://www.whatsapp.com" target="_blank" ><button type="button" style="width: 230px;height: 60px;font-size: 17px;background:rgb(228, 228, 228);border:none;cursor: pointer;" ><img src="Layer (1).svg"align="center" style="width:30px;"> +00 (00) 00000-0000</button></a><br><hr width=" 370px" align="center"/><br>
+                    <a href="https://goo.gl/maps/SXUaHYXTT4vGTnPV7" target="_blank"><button type="button" style="width: 260px;height: 60px;font-size: 17px;background:rgb(228, 228, 228);border:none;cursor: pointer;" ><img src="location-dot-solid.svg" align="center" style="width: 25px;padding-right: 10px;">Jardim Botânico<br>
+                    Matriz, Curitiba - PR, 82590-300</button></a>
+                    </form>
+                </span>
+                <hr width=" 550px" align="center"/>
+                <hr width=" 350px" align="center"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

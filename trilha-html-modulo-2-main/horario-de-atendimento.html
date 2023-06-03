@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+        <style>
+             .footer hr{
+                color: #cac6c6;
+            }
+            table tr:nth-child(even){
+                background-color:rgb(150, 169, 255);
+            }
+            table tr{
+                background-color:rgb(121, 145, 253);
+            }
+            table thead th {
+                background-color: rgb(225, 239, 253);
+                color: rgb(0, 0, 0);
+            }
+            table {
+                border: none;
+                text-align: center;
+                
+            }
+            table tr:hover td{
+                background-color: rgb(111, 132, 250);
+            }
+                
+               </style>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu" align="center" >
+            <!-- Aqui vai o seu menu -->
+            <img src="logo.svg" height="60px">
+            <br>
+            <br>
+            <a href="Pagina-Inicial.html" ><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px; cursor: pointer;" target="_self" >Inicial</button></a>
+            <hr color="#20859e" width="191px" />
+            <a href="Sobre-a-clínica.html"><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px; cursor: pointer;" target="_self" >Sobre a clínica</button></a>
+            <hr color="#20859e" width="191px" />
+            <a href="horario-de-atendimento.html"><button style="width: 190px; height: 35px; border: none; color: #dadada; background: rgb(58, 146, 204); border-radius: 3px; font-size: 15px;" target="_self" disabled >Horário de Atendimento</button></a>
+            <hr color="#20859e" width="191px" />
+            <a href="Contato.html"><button style="width: 190px; height: 35px; border: none; color: #fff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px; cursor: pointer;" target="_self" >contato</button></a>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="4.png" height="130"  >
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h1 align="center"><u>Sobre Nossos Serviços</u></h1>
+                <br>
+                <hr style="width:650px"/>
+                <br>
+                <table align="center" cellspacing="1" style="min-width: 700px;color: white;">    
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td title="Leia Mais Sobre..."><a href="#Pneumologia" style="color:white;">Pneumologia</td></a>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td title="Leia Mais Sobre..."><a href="#Geriatria" style="color:white;">Geriatria</td></a>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td title="Leia Mais Sobre..."><a href="#Infectologia" style="color:white;">Infectologia</td></a>
+                            <td>08h - 19h</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td title="Leia Mais Sobre..."><a href="#Medicina-de-Família" style="color:white;">Medicina de Família</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td title="Leia Mais Sobre..."><a href="#Neurologia" style="color:white;">Neurologia</td></a>
+                            <td>08h - 19h</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td title="Leia Mais Sobre..."><a href="#Ginecologia-e-Obstetrícia" style="color:white;">Ginecologia e Obstetrícia</td></a>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table> 
+                <br>
+                <hr style="width:650px"/>
+                <br>
+                <br>
+
+
+                
+                <a id="Pneumologia"><h2>Pneumologia</h2></a>
+                <p>O pneumologista é o médico que estuda em profundidade o sistema respiratório. Sintomas comuns investigados pela pneumologia são tosse, falta de ar e chio no peito.</p>
+                <p>Várias doenças crônicas acometem os pulmões, alguns exemplos são: asma, bronquites, enfisema, fibrose cística, fibrose pulmonar e bronquiectasias. Algumas infecções podem deixar sequelas pulmonares que também são acompanhadas pelo pneumologista como é o caso da tuberculose e da COVID-19.</p>
+                
+                <hr style="width:390px;" align="left" />
+                
+                <a id="Geriatria"><h2>Geriatria</h2></a>
+                <p>O geriatra é um médico que utiliza uma abordagem ampla para a avaliação clínica, incluindo aspectos psicossociais, escalas e testes. Abrange desde a promoção de um envelhecer saudável até o tratamento e a reabilitação do idoso. O processo de envelhecimento impacta no comportamento orgânico, demandando abordagens diferenciadas, assim como crianças e jovens apresentam especificidades que são tratadas pelo pediatra.</p>
+                <p>Além de lidar com doenças como as demências, a hipertensão arterial, o diabetes e a osteoporose, o geriatra também trata de problemas com múltiplas causas, como tonturas, incontinência urinária e tendência a quedas. Ele também fornece cuidados paliativos aos pacientes portadores de doenças sem possibilidade de cura.
+                    Frequentemente, atua em conjunto com equipe multidisciplinar, como na avaliação de tratamentos adequados e daqueles que trazem riscos e/ou interações indesejadas.</p>
+                <p>A geriatria avança a cada dia, propiciando longevidade com melhor qualidade de vida para a população idosa.</p>
+                <hr style="width:390px;" align="left" />
+                <a id="Infectologia"><h2>Infectologia</h2></a>
+                <p>A infectologia é a especialidade que estuda as doenças infecciosas que são doenças causadas por bactérias, vírus, fungos ou protozoários.</p>
+                <p>São inúmeras as infecções que podem acometer o ser humano com apresentação diversa e variável. Alguns exemplos de doenças tratadas pelo infectologista são: herpes, hepatites, tuberculose, HIV, dengue e infecções de pele.</p>
+                <hr style="width:390px;" align="left" />
+                <a id="Medicina-de-Família"><h2>Medicina de Família</h2></a>
+                <p>A medicina da família é uma especialidade caracterizada por um olhar amplo sobre a saúde dos pacientes e o acompanhamento ao longo de todas as fases da vida, independente de idade. O médico de família pode ser o primeiro profissional que as pessoas procuram quando precisam de atendimento médico e a partir daí, quando necessário, elas podem ser encaminhadas aos especialistas para um cuidado em conjunto.</p>
+                <p>O médico de família também atua de forma preventiva, estimulando ações de promoção à saúde, estimulando a adoção de mudanças comportamentais que levam as pessoas a terem uma vida com mais saúde.</p>
+                <hr style="width:390px;" align="left" />
+                <a id="Neurologia"><h2>Neurologia</h2></a>
+                <p>O neurologista é o especialista que trata doenças do sistema nervoso, seja central como é o caso do cérebro, seja periférico como é o caso dos nervos.</p>
+                <p>Algumas doenças tratadas pela neurologia são: cefaleias/enxaquecas, distúrbios do sono, acidente vascular encefálico (AVE), doença de Alzheimer, doença de Parkinson, esclerose múltipla, transtorno de déficit de atenção e hiperatividade (TDAH).</p>
+                <hr style="width:390px;" align="left" />
+                <a id="Ginecologia-e-Obstetrícia"><h2>Ginecologia e Obstetrícia</h2></a>
+                <p>A ginecologia e a obstetrícia são as especialidades médicas especializadas na saúde da mulher.</p>
+                <p>A ginecologia faz a avaliação preventiva de problemas que podem acometer as mulheres. Além disso, investiga e trata doenças que acometem o sistema reprodutivo feminino como infecções, dor crônica e sangramentos anormais.</p>
+                <p>Já a obstetrícia cuida de mulheres grávidas, do acompanhamento pré-natal até o parto.</p>
+                
+                <br>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <hr width=" 550px" align="center"/>
+                <span style="margin:auto; display:table; text-align: center;">
+                    <form>
+                    <label><button style="width: 190px; height: 35px; border: none; color: #ffffff; background: rgb(66, 169, 238); border-radius: 3px; font-size: 15px;" disabled>Seu e-mail: </label></button><br><br>
+                    <input type="email" style="border: none;border-radius: 2px;height: 17px;width: 250px;"><br><br>
+                    <button value="enviar" formmethod="post" type="submit" style="width: 90px; height: 27px; background: rgb(66, 169, 238); border: none; color: white; border-radius: 3px; font-size: 15px; cursor: pointer; ">Enviar</button>
+                    <button type="reset" style="width: 90px; height: 27px; background: rgb(66, 169, 238); border: none; color: white; border-radius: 3px; font-size: 15px; cursor: pointer; ">Apagar</button>
+                </form>
+                </span>
+                <hr width=" 340px" align="center"/>
+                <span style="margin:auto; display:table; text-align: center;">
+                    <form>
+                    <a href="https://www.whatsapp.com" target="_blank" ><button type="button" style="width: 230px;height: 60px;font-size: 17px;background:rgb(228, 228, 228);border:none;cursor: pointer;" ><img src="Layer (1).svg"align="center" style="width:30px;"> +00 (00) 00000-0000</button></a><br>
+                    <hr width=" 370px" align="center"/><br>
+                    <a href="https://goo.gl/maps/SXUaHYXTT4vGTnPV7" target="_blank"><button type="button" style="width: 260px;height: 60px;font-size: 17px;background:rgb(228, 228, 228);border:none;cursor: pointer;" ><img src="location-dot-solid.svg" align="center" style="width: 25px;padding-right: 10px;">Jardim Botânico<br>
+                    Matriz, Curitiba - PR, 82590-300</button></a>
+                    </form>
+                </span>
+                <hr width=" 550px" align="center"/>
+                <hr width=" 350px" align="center"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
